@@ -135,9 +135,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 #DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 #STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
 
-
 AWS_ACCESS_KEY_ID = 'AKIAV3W7OWB4OOJF2I6L'
 AWS_SECRET_ACCESS_KEY = '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'
-AWS_QUERYSTRING_AUTH = False
 AWS_STORAGE_BUCKET_NAME = 'awsbucket-structure-jurid'
+AWS_QUERYSTRING_AUTH = False
 
